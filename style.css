@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section-1{
+    background-image: url(images/header-hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+.section-1 img{
+    float: left;
+    padding: 20px 60px;
+}
+.section-1  .navbar ul{
+    list-style-type: none;
+    float: right;
+    padding: 40px;
+}
+.section-1 .navbar ul li{
+    float: left;
+    margin-right: 40px;
+}
+.section-1 .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.section-1 .navbar ul li .numbers{
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin-top: -10px;
+}
+.clr{
+    clear: both;
+}
+
+.section-1 .content{
+   width: 30%;
+   margin: auto;
+   text-align: center;
+   margin-top: 80px;
+}
+.section-1 .content h4{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400px;
+    
+}
+.section-1 .content h1{
+    color: #fff;
+    font-size: 117px;
+    font-weight: 400px;
+    
+}
+.section-1 .content p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+.section-1 .content a{
+    display: inline-block;
+    text-decoration: none;
+    color: hsla(93, 24%, 33%, 0.75);
+    background-color: gold;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.section-1 .content a:hover{
+    background-color: #dab200;
+}
+
+.section-2 h1{
+    margin-bottom: 100px;
+    text-align: center;
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 40px;
+    position: relative;
+}
+.section-2 h1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    height: 4px;
+    width: 100px;
+    margin: auto;
+    background-color: gold;
+    
+}
+.section-2 .main{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.section-2 .main .item{
+    width: calc(33.33% - 50px);
+    float: left;
+    margin-right:50px ;
+}
+.section-2 .main .item:nth-child(3n){
+    margin-right: 0;
+}
+.section-2 .main .item img{
+   max-width: 100%;
+}
+.section-2 .main .item h3{
+    margin-top: 20px;
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 20px;
+    font-weight: 400px;
+}
+.section-2 .main .item p{
+    margin-top: 20px;
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 27px;
+}
+.section-2 .main .clr{
+    clear: both;
+}
+
+.section-3{
+    background-color: #F6F8F5;
+    margin-bottom: 100px;
+}
+.section-3 .start{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+
+}
+.section-3 .start p{
+    margin-top: 30px;
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 35px;
+    font-weight: 400px;
+    line-height: 1.6;
+}
+.section-3 .start .avatar{
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.section-4{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.section-4 .content{
+    width: calc(40%);
+    float: left;
+    margin-right:16% ;
+}
+.section-4 .content h6{
+    text-transform: uppercase;
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 12px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+.section-4 .content .p1{
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 44px;
+    margin-bottom: 30px;
+}
+.section-4 .content .p2{
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.section-4 .content a{
+display: inline-block;
+    text-decoration: none;
+    color: hsla(93, 24%, 33%, 0.75);
+    border: 2px solid black;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.section-4 .content a:hover{
+    color: rgb(159, 206, 0);
+    border: 2px solid rgb(159, 206, 0); 
+}
+
+.section-5{
+    background-image: url(images/footer-hero-big.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+.section-5 .content{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+ }
+ .section-5 .content h1{
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 58px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+ }
+ .section-5 .content p{
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 32px;
+    margin-bottom: 50px;
+ }
+ .section-5 .content a{
+    display: inline-block;
+    text-decoration: none;
+    color: hsla(93, 24%, 33%, 0.75);
+    background-color: gold;
+    padding: 15px 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.section-5 .content a:hover{
+    background-color: #dab200;
+}
+
+footer{
+    padding: 20px;
+}
+footer .items{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+footer .items .list{
+    float: left;
+}
+footer .items .list ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+
+}
+footer .items .list li{
+    float: left;
+    margin-right: 20px;
+}
+footer .items .list li:last-child{
+    margin-right: 0;
+}
+footer .items .list a{
+    text-decoration: none;
+    color: rgba(82, 104, 64, 0.75);
+    font-size: 18px;
+    font-weight: 400px;
+}
+footer .items img{
+    float: left;
+    margin: 0 240px;
+}
+footer .items p{
+    float: left;
+    color: rgba(82, 104, 64, 0.75);
+    margin-top: 20px;
+    font-weight: 400px;
+    font-size: 18px;
+}
